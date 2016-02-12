@@ -1,6 +1,6 @@
 
 
-var _base = 520;
+var _base = 530;
 
 var http_errors = [
 	{
@@ -12,14 +12,12 @@ var http_errors = [
 		statusText: "No DeviceJS API key tied to account" // Account created / email verified, but no Relay ever paired (so no account)
 	}
 
-	// byMessage: {
-
-	// },
-	// byCode: {
-	// 	501: {
-
-	// 	}
-	// }
+	/**
+	 * List all further errors here.
+	 *
+	 * These should be things which may be used across applications and components.
+	 * 
+	 */
 ];
 
 module.exports = {
