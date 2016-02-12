@@ -47,7 +47,7 @@ delete ERRORS.HTTP;
 ERRORS.HTTP = {
 	byStatus: output_byStatus,
 	byStatusText: output_byMessage,
-	byCode: output_byShortCode
+	shortCode: output_byShortCode
 };
 
 var s = JSON.stringify(ERRORS);
